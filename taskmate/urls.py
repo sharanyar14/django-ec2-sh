@@ -1,9 +1,9 @@
 
-from django.contrib import admin
-from django.urls import path, include
+from django.contrib import admin # type: ignore
+from django.urls import path, include # type: ignore
 from todolist_app import views as todolist_views
-from django.conf import settings # new
-from django.conf.urls.static import static #new
+from django.conf import settings # type: ignore # new
+from django.conf.urls.static import static # type: ignore #new
 
 urlpatterns = [
     path('admin/', admin.site.urls),

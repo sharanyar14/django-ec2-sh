@@ -1,7 +1,7 @@
 
 from pathlib import Path
 import os
-import environ
+import environ # type: ignore
 
 env=environ.Env(
     SECRET_KEY=str,
