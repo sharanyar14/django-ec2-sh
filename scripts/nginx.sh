@@ -4,7 +4,7 @@
 PROJECT_MAIN_DIR_NAME="taskmate"
 
 # Replace {FOLDER_NAME_WHERE_SETTINGS_FILE_EXISTS} with the folder name where your nginx configuration file exists
-FOLDER_NAME_WHERE_SETTINGS_FILE_EXISTS="taskmate/taskmate"
+FOLDER_NAME_WHERE_SETTINGS_FILE_EXISTS="taskmate"
 
 # Reload systemd daemon
 sudo systemctl daemon-reload
