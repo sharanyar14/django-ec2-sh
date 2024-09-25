@@ -23,6 +23,7 @@ DEBUG = env('DJANGO_DEBUG')
 
 ALLOWED_HOSTS = ["*"]
 
+ROOT_URLCONF = 'taskmate.urls'
 
 # Application definition
 
